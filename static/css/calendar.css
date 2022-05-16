@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(rgba(95, 95, 95, 0.378), rgba(27, 27, 27, 0.321)),
+    url("../images/time.jpg");
+  background-size: cover;
+  background-blend-mode: lighten;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background: rgba(29, 40, 56, 0.5);
+  padding: 0 60px;
+  box-sizing: border-box;
+}
+.logo {
+  width: 155px;
+}
+.logo img {
+  width: 80px;
+  position: relative;
+  z-index: 10;
+  cursor: pointer;
+}
+nav {
+  flex: 1;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 60px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+.h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+  font-weight: 1000px;
+}
+
+.txtb {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #000;
+  background: none;
+  padding: 10px;
+  outline: none;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin-top: 90px;
+  margin-bottom: 80px;
+}
+h3 {
+  margin: 10px 0;
+}
+.task {
+  width: 100%;
+  background: rgb(248, 248, 248);
+  color: red;
+  padding: 18px;
+  margin: 6px 0;
+  overflow: hidden;
+}
+.task i {
+  float: right;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.comp .task {
+  background: rgb(255, 255, 255);
+  color: rgb(78, 255, 122);
+}
+
+.notcomp {
+  margin-top: 50px;
+}
+
+.comp {
+  margin-top: 120px;
+}
